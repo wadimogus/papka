@@ -110,7 +110,7 @@
 	justify-content: space-around;
 }
 .box img{
-	max-width: 175px;
+	max-width: 100px;
 	width: 100%;
 
 }
@@ -123,7 +123,7 @@
 .tan{
 	width: 100%;
 	background-color: white;
-	
+	margin-left: -85px;
 	max-width: 1000px;
     height: 310px;
     display: flex;
@@ -133,7 +133,7 @@
 .frag1{
 	width: 100%;
 	max-width: 105px;
-	padding-left: 20px;
+	padding-left: 50px;
 }
 .frag1 h1{
 	width:100px;
@@ -144,6 +144,8 @@
 .frag2{
 	width: 100%;
     max-width: 95px;
+    padding-left: 40px;
+
 }
 .frag2 h1{
     width: 100px;
@@ -154,6 +156,7 @@
 .frag3{
 	width: 100%;
     width: 120px;
+    margin: 40px;
 }
 .portofio{
 	height: 2172px;
