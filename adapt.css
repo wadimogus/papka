@@ -57,12 +57,12 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px 145px;
+	padding: 10px 35px;
 }
 .logo{
 	height: 55px;
 	width: 100%;
-	max-width: 1000px;
+	max-width: 930px;
 	background-color: whitesmoke;
 	display: flex;
 	align-items: center;
@@ -71,7 +71,7 @@
 }
 .menu{
 	width: 100%;
-	padding-right: 25px;
+	padding-right: 10px;
 	max-width: 446px;
 	height: 21px;
     display: flex;
@@ -90,13 +90,15 @@
 	height: 5px;
 	background-color: orange;
 	position: absolute;
-	left: 188px;
+	left: 75px;
 	top: 35px;
 }
 .logo2{
 	width: 100%;
 	max-width: 300px;
 	height: 208px;
+	padding-left: 24px;
+    padding-right: 22px;	
 }
 .box{
 	width: 100%;
@@ -108,8 +110,12 @@
 	justify-content: space-around;
 }
 .box img{
-	height: 400px;
+	max-width: 175px;
+	width: 100%;
 
+}
+.logo2 h1{
+	width: 100px;
 }
 .logo2 p{
 	font-size: 14px;
@@ -117,18 +123,37 @@
 .tan{
 	width: 100%;
 	background-color: white;
-	padding-left: 65px;
+	
 	max-width: 1000px;
     height: 310px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
 }
-.frag{
+.frag1{
 	width: 100%;
-	max-width: 270px;
-	height: 228px;
+	max-width: 105px;
+	padding-left: 20px;
+}
+.frag1 h1{
+	width:100px;
+}
+.frag1 p{
+	width: 100px;
+}
+.frag2{
+	width: 100%;
+    max-width: 95px;
+}
+.frag2 h1{
+    width: 100px;
+}
+.frag2 p{
+    width: 100px;
+}
+.frag3{
+	width: 100%;
+    width: 120px;
 }
 .portofio{
 	height: 2172px;
@@ -143,7 +168,6 @@
 .portofio img{
 	width: 100%;
     max-width: 930px;
-    height: 500px;
     
 }
 .portofio{
@@ -181,6 +205,7 @@
 .cont p{
 	display: flex;
 	justify-content: center;
+	padding: 10px;
 }
 .cont span{
 	color: whitesmoke;
@@ -190,6 +215,7 @@
 .send{
 	display: flex;
 	justify-content: center;
+	padding: 10px;
 }
 .send a{
 	width: 100%;
@@ -204,3 +230,9 @@
 	color: white;
 	height: 20px;
 }
+ @media screen and (max-width: 980px){
+
+ }
+ .cont{
+ 	padding: 0px;
+ }
